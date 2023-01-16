@@ -1,0 +1,73 @@
+body{
+    font-family: Inter, sans;
+    padding: 0;
+    width: 550px;
+    margin: 0 auto;
+}
+
+.card{
+    display: flex;
+    padding: 0 30px;
+    padding-bottom: 25px;
+    margin: 0;
+}
+
+.card .image{
+    max-width: 125px;
+    height: 170px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.card .info{
+    width: 330px;
+    font-size: 10px;
+}
+
+.head {
+    display: flex;
+    justify-content: start;
+    background-color: #F55A5A;
+    padding: 20px 80px;
+    margin: 0;
+    margin-bottom: 25px;
+    text-align: center;
+    color: white;
+}
+
+.head .globe {
+    width: 24px;
+    height: 24px;
+    color: white;
+    padding-right: 100px;
+}
+
+
+
+.card .info .country {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+
+.card .info .dates {
+    font-weight: bold;
+}
+
+.card .info .country a{
+    color: #2B283A;
+}
+
+.card .info .country .pin {
+    width: 10px;
+    padding-right: 7px;
+}
+
+.card .info .country a{
+    letter-spacing: 0.05em;
+    color: #918E9B;
+}
+
